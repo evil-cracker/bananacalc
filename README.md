@@ -3,3 +3,4 @@ It is specially made for only android users, pc users also use it but without CS
 In next page you need to give the weight og the stem to reduce the weight of each banana bunch
 
 And finnaly you will get the total weight, and amount .
+NOTE: IT is only avaliable in tamil.
