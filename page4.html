@@ -58,10 +58,14 @@
 <p id="para6"></p>
 <p id="totalwei"></p>
 <p style="  @media ( max-width :1000px){  font-size: 59.5px;   }   "   id="konadai"></p>
-    <p id="para3"></p>  
+      
 <p style=" @media ( max-width :1000px){font-size: 60px;}" id="para4"></p>
+<p id="para3"></p><br>
+
 <br><hr>
 <p id="para5"></p>
+
+
 <hr>
 
    </div>
@@ -120,14 +124,14 @@ var  total_price=after_kon_weight*price;
 
 document.getElementById("para1").innerHTML="பெயர் 	&nbsp;&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;: "+name;
 document.getElementById("para2").innerHTML="வாழை வகை 	&nbsp;: "+type;
-document.getElementById("para3").innerHTML="விலை 	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;: "+price;
+document.getElementById("para3").innerHTML="விலை 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;: "+price;
 
-document.getElementById("para6").innerHTML=" மொத்த தார் 	&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	&nbsp;:"+total_thar;
+document.getElementById("para6").innerHTML=" மொத்த தார் 	&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	&nbsp;: "+total_thar;
 
-document.getElementById("totalwei").innerHTML=" மொத்த எடை 	&nbsp;	&nbsp;	&nbsp;	&nbsp;:"+total_weight;
-document.getElementById("konadai").innerHTML="கொண்டை எடை :"+weight_kon;
-document.getElementById("para4").innerHTML=" கலித்த எடை &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:"+after_kon_weight+" X "+price ;
-document.getElementById("para5").innerHTML=" மொத்த தொகை :"+total_price;
+document.getElementById("totalwei").innerHTML=" மொத்த எடை 	&nbsp;	&nbsp;	&nbsp;	&nbsp;: "+total_weight;
+document.getElementById("konadai").innerHTML="கொண்டை எடை : "+weight_kon;
+document.getElementById("para4").innerHTML=" கலித்த எடை &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: "+after_kon_weight;
+document.getElementById("para5").innerHTML=" பணம் &nbsp;&nbsp;:&nbsp; "+after_kon_weight+" X "+price+ " = "+total_price;
 
 
 
